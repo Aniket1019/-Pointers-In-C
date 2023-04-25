@@ -5,8 +5,7 @@ A pointer is a variable that stores the memory address of another variable as it
 2)The address of the variable you are working with is assigned to the pointer
 
 The general form of a pointer variable declaration is −
-
-   type *var-name;
+type *var-name;
    
 Here, type is the pointer's base type; it must be a valid C data type and var-name is the name of the pointer variable.
 The asterisk * is used to declare a pointer.
