@@ -9,9 +9,10 @@ The general form of a pointer variable declaration is −
    
 Here, type is the pointer's base type; it must be a valid C data type and var-name is the name of the pointer variable.
 The asterisk * is used to declare a pointer.
+
 Example:-
 
-int myAge = 43;     // An int variable
+    int myAge = 43;     // An int variable
     int* ptr = &myAge;  // A pointer variable, with the name ptr, that stores the address of myAge
 
     // Output the value of myAge (43)
